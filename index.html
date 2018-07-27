@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Prototipo</title>
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+<body>
+	<header class="header">
+		<div class="encabezado_logo">
+			<img class="logo" src="img\logo-davivienda.png">
+		</div>
+		<div class="encabezado_salir">
+			<a href="#">
+				<img class="salir" src="img\boton-x.png">
+			</a>
+		</div>
+	</header>
+	<main id="contenido">
+		<div class="container-fluid bg-transparent pl-5 pr-5 pt-4">
+			<form>
+				<label><h6>Tipo de documento</h6></label>
+				<div class="form-group centered blanquis">
+					<div class="iconCont centered">
+						<i class=" fas fa-address-card fa-lg"></i>	
+					</div>
+					<select class="form-control custom-select formu blanquis">
+						<option>Cédula de Ciudadanía</option>
+						<option>Cédula de Extranjería</option>
+						<option>Nit</option>
+						<option>Tarjeta de Identidad</option>
+						<option>Pasaporte</option>
+						<option>Tarjeta Seguro Social Extranjero</option>
+						<option>Sociedad Extranjera sin Nit en Colombia</option>
+						<option>Fideicomiso</option>
+						<option>Nit Menores</option>
+						<option>RIF Venezuela</option>
+						<option>Nit Extranjería</option>
+						<option>Nit Persona Natural</option>
+						<option>Recistro civil de nacimiento</option>
+					</select>
+				</div>
+
+				<label for="exampleFormControlInput1"><h6>Número de documento</h6></label>
+				<div class="form-group centered">
+					<div class="iconCont centered blanquis">
+						<i class="fas fa-hashtag fa-lg"></i>
+					</div>
+					<input class="form-control formu">
+				</div>
+
+				<div class="form-check text-center">
+					<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+					<label class="form-check-label negris" for="defaultCheck1">
+						Recordar mis datos
+					</label>
+				</div>
+
+				<div class="text-center pt-3 ">
+					<a href="menu_def.html" class="btn btn-primary red">Ingresar	</a>
+				</div>
+
+				<div class="text-center pt-4">
+					<p><a href="#" class="negris">¿Olvidó o bloqueó su clave?</a></p>
+					<hr class="hr"/>
+					<p><a href="#" class="negris">Terminos y condiciones</a></p>
+				</div>
+			</form>
+		</div>
+		<div class="container-fluid centered red">
+			<div>
+				<img src="img/icon.png" class="img-fluid">
+			</div>
+			<div class="text-center text-white" style="padding: 2%">
+				<h5 class="font-weight-bold">Davivienda Móvil</h5>
+				<p>Realice en un clic, consultas, transferencias y pagos, donde y cuando quiera</p>
+			</div>
+		</div>
+	</main>
+	<footer>			
+		<div class="linkF">
+			<a href="#" class="negris">
+				<i class="fas fa-briefcase fa-lg"></i>
+				<p id="uno">Abrir productos en línea</p>
+			</a>
+		</div>
+		<div class="linkF">
+			<a href="#" class="negris">
+				<i class="fas fa-comments fa-lg"></i>
+				<p id="dos">Atención en Línea</p>
+			</a>
+		</div>
+		<div class="linkF">
+			<a href="#" id="rojis">
+				<i class="fas fa-th fa-2x"></i>
+				<p id="tres">Apps</p>
+			</a>
+		</div>
+		<div class="linkF">
+			<a href="#" class="negris">
+				<i class="fas fa-map-marker-alt fa-lg"></i>
+				<p id="cuatro">Puntos de Atención</p>
+			</a>
+		</div>
+		<div class="linkF" id="last">
+			<a href="#" class="negris">
+				<i class="fas fa-bars fa-lg"></i>
+				<p id="cinco">Más...</p>
+			</a>
+		</div>
+	</footer>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
