@@ -1,4 +1,11 @@
-function mostrar(){
-document.getElementById('menu1').style.display = 'block';}
-function ocultar(){
-document.getElementById('menu1').style.display = 'none';}
+var menu = document.getElementById('menu1');
+var botonM = document.getElementById('mostrar');
+var botonO = document.getElementById('ocultar');
+
+botonM.onclick = function(){
+	menu.className = 'menuPuesto';
+};
+
+botonO.onclick = function(){
+	menu.className = 'menuOculto';
+};

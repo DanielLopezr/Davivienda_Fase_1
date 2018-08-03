@@ -7,7 +7,6 @@
 	<link rel="stylesheet" href="css/estilos_menu_def.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-	<script src="jquery-3.3.1.min"></script>
 </head>
 <body>
 	<header class="header">
@@ -20,21 +19,47 @@
 			</a>
 		</div>
 	</header>
-
-	<nav class="menu" id="menu1">
+	<nav class="menuOculto" id="menu1">
 		<ul>
-			<li class="ajus">
-				<input type="button" value="Ocultar" onclick="ocultar()">
-				<img class="ajustes" src="img\ajustes.png">
+			<li>
+				<a href="#" id="ocultar" class="rojis"><i class="fas fa-bars fa-2x redh"></i></a>
+				<div class="imgCont centered">
+					<img src="img/ajustes.png" class="responsive">
+				</div>
+				
 			</li>
-			<li>Consultas</li>
-			<li>Pagos y recargas</li>
-			<li>Daviturno</li>
-			<li>Transferencias y avances</li>
-			<li>Mis pagos automáticos</li>
-			<li>Pague fácil</li>
-			<li>Retiros sin tarjeta</li>
-			<li>Abrir productos en línea</li>
+			<li>
+				<span class="spanzaso"><i class="fas fa-user-alt fa-2x"></i></span>
+				<span>Consultas</span>
+			</li>
+			<li>
+				<span class="spanzaso"><i class="fas fa-mobile-alt fa-2x"></i></span>
+				<span>Pagos y recargas</span>
+			</li>
+			<li>
+				<span class="spanzaso"><i class="fas fa-home fa-2x"></i></span>
+				<span>Daviexpress</span>
+			</li>
+			<li>
+				<span class="spanzaso"><i class="fas fa-exchange-alt fa-2x"></i></span>
+				<span>Transferencias y avances</span>
+			</li>
+			<li>
+				<span class="spanzaso"><i class="fas fa-file-invoice-dollar fa-2x"></i></span>
+				<span>Mis pagos automáticos</span>
+			</li>
+			<li>
+				<span class="spanzaso"><i class="fas fa-qrcode fa-2x"></i></span>
+				<span>Pague fácil</span>
+			</li>
+			<li>
+				<span class="spanzaso"><i class="fas fa-money-bill-alt fa-2x"></i></span>
+				<span>Retiros sin tarjeta</span>
+			</li>
+			<li>
+				<span class="spanzaso"><i class="fas fa-wallet fa-2x"></i></span>
+				<span>Abrir productos en línea</span>
+			</li>
 		</ul>
 	</nav>
 	
@@ -43,13 +68,10 @@
 			<div class="seccion1">
 				<h6 class="usuario" align="center"><b>Nombre del usuario</b></h6>
 				<p align="center" class="registro_ingreso">Último ingreso 24/07/2018 | 5:14 a.m. | IP xxx.xx.x.xxx</p>
-
-				<div class="seccion1_1">
-					<input type="button" value="Mostrar" onclick="mostrar()">
-
-					<span class="descri">Consultas</span>
-					
-					<img class="mensajes" src="img\mensajes.png">
+				<div class="seccion1_1 centered">
+					<a href="#" id="mostrar" class="rojis"><i class="fas fa-bars fa-2x redh"></i></a>
+					<span>Consultas</span>
+					<a href="#" class="rojis" id="msj"><i class="fas fa-envelope fa-2x redh"></i></a>
 				</div>
 			</div>
 		</div>
