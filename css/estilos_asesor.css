@@ -1,0 +1,116 @@
+body { 
+	background: url(../img/fondo2.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body,html, main{
+	height: 100%;
+	width: 100%;
+}
+
+.header {
+	background-color: #FF0000;
+	padding: 6% 3% 6% 2%;
+	-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3),0 0 40px rgba(0, 0, 0, 0.4) inset;
+	-moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.4) inset;
+	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.4) inset;
+	height: 10vH;
+}
+
+header {
+	position: fixed;
+	top: 0px;
+}
+
+.encabezado_logo {
+	width: 70%;
+	float: left;
+	padding-left: 8%;
+	height: 20%;
+}
+
+.encabezado_salir {
+	width: 10%;
+	float: right;
+	align-items: center;
+	justify-content: center;
+	height: 20%;
+}
+
+.logo {
+	width: 100%;
+}
+
+.salir {
+	width: 70%;
+}
+.contPadd { 
+	padding-top: 3vh;
+	padding-right: 5vw !important;
+	padding-left: 5vw !important;
+	padding: 3vh 5vh;
+}
+
+.centered {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.banner {
+	height: 15%;
+	background-color: #EEE9E9;
+	-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3),0 0 40px rgba(0, 0, 0, 0.4) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.4) inset;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.4) inset;
+
+}
+
+.responsive { 
+	height: 100%;
+	width: 60%; 
+}
+.chiquita {
+	font-size: 0.65em;
+}
+
+.imgcont {
+	height: 80% !important;
+	display: flex;
+	justify-content: center;
+}
+
+#content {
+	position: fixed;
+}
+.red {
+	background-color: #FF0000 !important;
+	-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3),0 0 40px rgba(0, 0, 0, 0.4) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.4) inset;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.4) inset;
+}
+
+.carta {
+	height: 25%;
+}
+
+.padd {
+	padding: 5%;
+}
+
+.usuario {
+	color: #35322F;
+}
+
+.registro_ingreso {
+	padding-top: 1%;
+	line-height: 90%;
+	color: #615B59;
+}
+
+.tabla {
+	background-color: rgba(255, 204, 204, 0.5) !important;
+	margin: 0px !important;
+}
